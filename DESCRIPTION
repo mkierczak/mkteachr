@@ -1,0 +1,25 @@
+Package: mkteachr
+Type: Package
+Title: Functions, datasets, examples and other assets related to teaching R.
+Version: 0.1.0
+Author: Marcin Kierczak <marcin.kierczak@scilifelab.se>
+Maintainer: Marcin Kierczak <marcin.kierczak@scilifelab.se>
+Description: This package provides various functions, datasets, examples and other assets related to teaching R by Marcin Kierczak.
+License: GNU GPL v. 3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Imports: 
+    curl,
+    stringr,
+    ggplot2,
+    ggrepel,
+    scales,
+    glue,
+    ggtext,
+    dplyr,
+    tibble,
+    magrittr, 
+    readr,
+    lubridate,
+    tidyr
