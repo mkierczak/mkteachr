@@ -24,7 +24,7 @@ interrogate_repos <- function() {
 
   # Interrogate GitHub
   github_con <- curl::curl(url = 'https://github.com/search?l=R&q=R+package&type=Repositories')
-  github <- paste0(readLines(con = github_con, n = 1200, ), collapse = '')
+  github <- paste0(readLines(con = github_con, n = 2400, ), collapse = '')
   github_pkgs <- stringr::str_replace(stringr::str_match(github, '([0-9]{1,},[0-9]{1,}) repository results')[2],
                                       ',',
                                       '')
